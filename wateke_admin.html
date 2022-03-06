@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería el wateke</title>
+
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 56%;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+            size-adjust: auto;
+        }
+
+        .titulos{
+            text-align: left;
+            padding-left: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+           /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .column {
+            float: right;                    
+            width: 19%;
+            padding: 5px;  
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column_2 {
+            float: right;                    
+            width: 30%;
+            padding: 5px;  
+        }
+
+        /* Clear floats after image containers */
+        .row_2::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .card_2 {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);            
+            transition: 0.3s;
+            width: 36%;
+        }
+        .card_2:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container_2 {
+            padding: 2px 16px;
+            size-adjust: auto;
+        }
+
+        .p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #link{
+            text-align: left;
+        }
+
+        body{
+          background: url(./Assets/Images/pink_clouds.jpg);
+      }
+
+      #titulo_bienvenida{
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+      }
+
+      .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background: #555;
+        }
+          
+        .header h1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 18px;
+            left: 10px;
+        }
+
+        .footer{
+            position: relative;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 18px;
+            left: 10px; 
+        }
+
+
+    </style>
+    
+</head>
+
+<header>
+    <div class="header">
+        <a href="Pasteleria_wateke.html">
+            <img src="./Assets/Images/wateke_logo.PNG" alt="Repostería El Wateke" width="100px" height="100px">
+        </a>     
+        <h1>Inventario</h1>        
+    </div>
+</header>
+
+<body>
+      
+    <br>
+    <br>
+    <br>
+    <h2 class="titulos" id="titulo_sabores">Sabores</h2>
+            
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_vainilla.jpg" alt="Vainilla" title="Vainilla" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">1/100</p>
+                </div>
+            </div>            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_fresa.jpg" alt="Fresa" title="Fresa" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">50/100</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_cajeta.jpg" alt="Cajeta" title="Cajeta" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">80/100</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_oreo.jpg" alt="Oreo" title="Oreo" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">0/100</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_chocolate.jpg" alt="Chocolate" title="Chocolate" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">10/100</p>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+    
+
+    <br>
+    <h2 class="titulos" id="titulo_decoracion" >Decoraciones</h2>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_frutas.jpg" alt="Decoracion de Frutas" title="Frutas" width="200px" height="150px" id="dfrutas" class="images">
+                <div class="container">
+                    <p class="p">30/30</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_imagen.jpg" alt="Imagenes impresas" title="Imagenes" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">0/50</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_betun.jpg" alt="Decoracion de betun" title="Betún" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">50/100</p>
+                </div>
+            </div>            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_figura.jfif" alt="Figuras" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">3/10</p>   
+                </div>
+            </div>            
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="./Assets/Images/pastel_letrero.jpg" alt="Letrero" width="200px" height="150px" class="images">
+                <div class="container">
+                    <p class="p">50/50</p>
+                </div>
+            </div>            
+        </div>    
+    </div>     
+
+
+    <h2 class="titulos">Pedidos</h2>
+
+    <div class="row_2">
+        <div class="column_2">
+            <div class="card_2">
+                <img src="./Assets/Images/pastel_cajeta.jpg" alt="Pastel de Cajeta" title="Cajeta" width="200px" height="150px" class="images">
+                <img src="./Assets/Images/pastel_betun.jpg" alt="Decoracion de betun" title="Betún" width="200px" height="150px" class="images">
+                <img src="./Assets/Images/pastel_letrero.jpg" alt="Letrero decorativo" title="Letrero" width="200px" height="150px" class="images">
+                <div class="container_2">
+                    <h4 class="p">Cosme Fulanito</h4>
+                    <p class="p">Telefono: 871-622-9191</p>
+                    <p class="p">cosme@wayneco.com</p>
+                </div>        
+            </div>            
+        </div>
+
+        <div class="column_2">
+            <div class="card_2">
+                <img src="./Assets/Images/pastel_vainilla.jpg" alt="Pastel de Vainilla" title="Vainilla" width="200px" height="150px" class="images">
+                <img src="./Assets/Images/pastel_figura.jfif" alt="Figura decorativa" title="Figura" width="200px" height="150px" class="images">
+                <div class="container_2">
+                    <h4 class="p">Max Power</h4>
+                    <p class="p">Telefono: 764-84377</p>
+                    <p class="p">maxpwr@wayneco.com</p>
+                </div>        
+            </div>
+        </div>
+
+        <div class="column_2">
+            <div class="card_2">
+                <img src="./Assets/Images/pastel_chocolate.jpg" alt="Pastel de Chocolate" title="Chocolate" width="200px" height="150px" class="images">
+                <img src="./Assets/Images/pastel_betun.jpg" alt="Decoracion de betun" title="Betún" width="200px" height="150px" class="images">
+                <div class="container_2">
+                    <h4 class="p">Bruce Wayne</h4>
+                    <p class="p">Telefono: 871-622-9191</p>
+                    <p class="p">notbtmn@wayneco.com</p>
+                </div>        
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer class="footer">
+    <p>Encuentranos en: Avenida Siempreviva #742, Springfield, EE.UU.</p>
+    <p>Tel: 764-84377</p>
+    <p>Horario de atención: 10:00 - 20:00</p>    
+</footer>
